@@ -1,0 +1,34 @@
+{
+  "name": "svg-interpolator",
+  "version": "0.1.4",
+  "description": "Takes an SVG, traces it, fills it and returns a set of evenly spaced points making up the path.",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@dev.tutive.com:www/svg-interpolator.git"
+  },
+  "keywords": [
+    "svg",
+    "interpolate",
+    "delaunay",
+    "tessellate"
+  ],
+  "author": "Stephen Pegoraro <spegoraro@tutive.com>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "html-webpack-plugin": "^2.22.0",
+    "svgcmd-loader": "git+ssh://git@dev.tutive.com:www/svgcmd-loader.git",
+    "viewport": "git+ssh://git@dev.tutive.com:www/viewport.git",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "delaunay-fast": "^1.0.1"
+  }
+}
